@@ -8,14 +8,30 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-<div id="task">test</div>
+    <div id="content">
+            <div id="task"><span id="a"></span> + <span id="b"> + </span> = <span id="c"></span></div>
+            <div id="congrats"></div>
+            <br>
+            <button type="button" onClick="document.location.reload()">новый пример</button>
+    </div>
+
 <div id="arrow">
-    <input type="text">
+    <div id="inp">
+            <input id="first_input" type="text">
+    </div>
+    
     <img src="./arrow.png" alt="arrow">
+</div>
+<div id="arrow_2">
+    <div id="inp2">
+            <input id="second_input" type="text">
+    </div>
+        <img src="./arrow.png" alt="arrow">
 </div>
 <img id="sprite" src="./sprite.png" alt="sprite">
 <script src="./lib/jquery.min.js"></script>
 <script src="./lib/underscore-min.js"></script>
+<script src="./lib/jquery-ui.min.js"></script>
 <script src="./script/main.js"></script>
 </body>
 </html>
