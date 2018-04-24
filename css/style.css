@@ -1,0 +1,40 @@
+
+
+#task {
+    position: absolute;
+    width: 200px;
+    top: 20%;
+    left: 50%;
+    margin-left: -100px;
+    text-align: center;
+}
+
+
+#sprite {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    margin-left: -437.5px;
+    z-index: 1;
+}
+
+#arrow{
+    
+    /*border-bottom: solid 1px red;*/
+    position: absolute;
+    z-index: 2;
+}
+
+#arrow > img {
+    height: 100px;
+    vertical-align: bottom;
+    width: inherit;
+}
+#arrow > input {
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    width: 15px;
+    margin-left: -7.5px;
+
+}
